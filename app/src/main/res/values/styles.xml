@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalciButton">
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#EDFFFFFF</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

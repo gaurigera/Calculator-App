@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="1"
+    android:background="#CAB3E6"
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="2"
+        android:padding="6dp"
+        android:useDefaultMargins="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write here"
+            android:textAlignment="textEnd"
+            android:layout_margin="30dp"
+            />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="4"
+            >
+            <Button
+                style="@style/CalciButton"
+                android:text="Hist"
+                />
+            <Button
+                style="@style/CalciButton"
+                android:text="Clr" />
+            <Button
+                style="@style/CalciButton"
+                android:text="del"
+                />
+            <Button
+                style="@style/CalciButton"
+                android:text="="
+                />
+        </GridLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4"
+        >
+
+        <Button
+            android:id="@+id/numberSeven"
+            style="@style/CalciButton"
+            android:text="7"
+            />
+
+
+        <Button
+            android:id="@+id/numberEight"
+            style="@style/CalciButton"
+            android:text="8"
+            />
+
+        <Button
+            android:id="@+id/numberNine"
+            style="@style/CalciButton"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/division"
+            android:text="/"
+            style="@style/CalciButton"
+            />
+
+        <Button
+            android:id="@+id/numberFour"
+            style="@style/CalciButton"
+            android:text="4"
+            />
+
+        <Button
+            style="@style/CalciButton"
+            android:id="@+id/numberFive"
+            android:text="5" 
+            />
+
+        <Button
+            android:id="@+id/numberSix"
+            style="@style/CalciButton"
+            android:text="6" />
+
+        <Button
+            style="@style/CalciButton"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/numberOne"
+            style="@style/CalciButton"
+            android:text="1"
+            />
+        <Button
+            android:id="@+id/numberTwo"
+            style="@style/CalciButton"
+            android:text="2"
+            />
+
+        <Button
+            android:id="@+id/numberThree"
+            style="@style/CalciButton"
+            android:text="3"
+            />
+
+        <Button
+            style="@style/CalciButton"
+            android:text="+"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            />
+
+        <Button
+            android:id="@+id/numberZero"
+            android:text="0"
+            style="@style/CalciButton"
+        />
+
+        <Button
+            style="@style/CalciButton"
+            android:text="."
+            />
+
+        <Button
+            style="@style/CalciButton"
+            android:text="-"
+            />
+    </GridLayout>
+</GridLayout>
